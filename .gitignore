@@ -1,0 +1,76 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+android/.gradle/
+android/local.properties
+android/**/build/
+
+# iOS/Xcode related
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+**/xcuserdata/
+*.xcuserstate
+
+# HarmonyOS / DevEco Studio related
+harmony_native/.hvigor/
+harmony_native/build/
+harmony_native/entry/build/
+harmony_native/**/.cxx/
+harmony_native/**/oh_modules/
+harmony_native/local.properties
+harmony_native/.idea/
+harmony_native/signature/
+harmony_native/build-profile.json5
+
+# Large/local artifacts not meant for version control
+englishlearning.zip
+flutter_*.log
+
+# Signing materials / private keys - never commit
+签名/
+*.p12
+*.jks

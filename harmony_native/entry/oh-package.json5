@@ -1,0 +1,9 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "英语学习工具主模块",
+  "main": "",
+  "author": "EnglishLearning",
+  "license": "Apache-2.0",
+  "dependencies": {}
+}

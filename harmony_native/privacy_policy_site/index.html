@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>隐私政策 - HEIDI英语学习</title>
+<style>
+  :root {
+    --primary: #4F46E5;
+    --text: #0F172A;
+    --muted: #64748B;
+    --bg: #F8FAFC;
+    --card: #FFFFFF;
+    --border: #E2E8F0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+  }
+  header {
+    margin-bottom: 32px;
+  }
+  header h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+  }
+  header p.meta {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 32px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 32px 0 12px;
+    color: var(--primary);
+  }
+  h2:first-child {
+    margin-top: 0;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  ul {
+    padding-left: 20px;
+    margin: 8px 0;
+  }
+  .highlight {
+    background: #EEF2FF;
+    border-left: 4px solid var(--primary);
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin: 16px 0;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 40px;
+  }
+  a { color: var(--primary); }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>隐私政策</h1>
+      <p class="meta">HEIDI英语学习（HEIDI English Learning） · 生效日期：2026年9月25日 · 版本号：1.0.2</p>
+    </header>
+
+    <div class="card">
+      <div class="highlight">
+        <strong>一句话说明：</strong>"HEIDI英语学习"是一款完全离线运行的单机学习工具。我们不会收集、存储、传输或与任何第三方共享您的任何个人信息或使用数据。您的所有学习数据仅保存在您本人设备上。
+      </div>
+
+      <h2>1. 概述</h2>
+      <p>
+        本隐私政策适用于"HEIDI英语学习"（HarmonyOS 应用，包名：<code>com.englishlearning.suiyunhai</code>，以下简称"本应用"）。
+        本应用由开发者独立开发和维护，定位为单机版英语学习工具，核心功能（背单词、习题练习、阅读训练、学习统计）均在设备本地完成，不依赖云端服务器，也不存在用户账号体系。
+      </p>
+
+      <h2>2. 我们不收集的信息</h2>
+      <p>本应用不会收集以下任何类型的信息：</p>
+      <ul>
+        <li>个人身份信息（姓名、手机号、邮箱、身份证号等）</li>
+        <li>设备标识信息（如设备 UDID、IMEI、广告标识符等）</li>
+        <li>位置信息</li>
+        <li>通讯录、相册、麦克风等敏感权限对应的数据</li>
+        <li>用户在应用内的学习记录、答题结果、浏览行为等使用数据</li>
+        <li>Cookie 或同类追踪技术产生的数据</li>
+      </ul>
+
+      <h2>3. 本地存储的数据</h2>
+      <p>
+        为了提供背单词进度、答题正确率、阅读完成情况、连续学习天数等功能，本应用会使用 HarmonyOS 系统提供的本地首选项存储（Preferences）机制，
+        将学习统计数据保存在您设备的本地存储空间中。这些数据：
+      </p>
+      <ul>
+        <li>仅保存在您本人设备上，不会上传到任何服务器；</li>
+        <li>不会被开发者、第三方或本应用以外的任何主体访问；</li>
+        <li>在您卸载本应用时会随应用一并被系统清除。</li>
+      </ul>
+
+      <h2>4. 权限说明</h2>
+      <p>本应用申请的系统权限及用途如下：</p>
+      <ul>
+        <li>
+          <strong>网络权限（INTERNET）</strong>：仅用于调用 HarmonyOS 系统内置的语音合成（TTS）引擎，在需要在线发音模式时临时请求语音数据。
+          该过程不涉及任何用户个人信息的上传，若设备不支持或未连接网络，应用会自动回退到离线发音模式，不影响核心学习功能的使用。
+        </li>
+      </ul>
+      <p>本应用不申请存储、通讯录、位置、相机、麦克风等其他敏感权限。</p>
+
+      <h2>5. 第三方服务与 SDK</h2>
+      <p>
+        本应用不集成任何第三方数据统计 SDK、广告 SDK 或社交分享组件，不存在向第三方传输用户数据的情形。
+        应用内使用的文字转语音能力由 HarmonyOS 系统自带的 CoreSpeechKit 提供，遵循华为终端操作系统的系统级隐私规范，
+        本应用本身不会额外收集或留存相关数据。
+      </p>
+
+      <h2>6. 未成年人保护</h2>
+      <p>
+        本应用面向包括中学生在内的英语学习者，由于本应用不收集任何个人信息，也不包含社交、支付、广告等功能，
+        因此不会对未成年人的隐私和权益造成风险。我们仍建议未成年人在监护人指导下合理安排学习时间。
+      </p>
+
+      <h2>7. 数据安全</h2>
+      <p>
+        由于本应用采用纯本地化的数据处理方式，不存在网络传输和服务器存储环节，因此不存在因服务器被攻击、数据库泄露等原因导致的用户数据泄露风险。
+        您设备本身的安全（如是否设置锁屏密码、是否安装来源不明的应用）由您自行负责。
+      </p>
+
+      <h2>8. 隐私政策的更新</h2>
+      <p>
+        如未来本应用增加需要收集用户信息的新功能（例如账号同步、云端备份等），我们会在功能上线前更新本隐私政策，
+        并通过应用内公告或应用商店版本说明的方式提示您重新确认。在您继续使用更新后的版本前，我们会征得您的同意。
+      </p>
+
+      <h2>9. 联系我们</h2>
+      <p>
+        如果您对本隐私政策有任何疑问、意见或建议，可通过以下方式联系开发者：
+      </p>
+      <ul>
+        <li>开发者：隋云海</li>
+        <li>邮箱：<a href="mailto:1325574780@qq.com">1325574780@qq.com</a></li>
+      </ul>
+    </div>
+
+    <footer>
+      &copy; 2026 HEIDI English Learning. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
